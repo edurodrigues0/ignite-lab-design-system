@@ -1,7 +1,9 @@
 import './styles/global.css';
 
+import { SignIn } from './pages/SignIn';
+
 export function App() {
   return (
-    <h1 className="text-xl text-cyan-300">Hello World!</h1>
+    <SignIn />
   )
 }
